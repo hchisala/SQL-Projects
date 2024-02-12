@@ -11,11 +11,13 @@ delete from custo_data where contact = 884882882;
 --Inserting new records
 
 insert into custo_data (name, surname, sex, location,  profession, age, contact, package) 
-values ('Ndadza','Viyazhi','Male','Blantyre', 'Student', 21, 993749291, '5 Kg');
+values ('*****','*****','Male','Blantyre', 'Student', **, *******, '5 Kg');
 insert into custo_data (name, surname, sex, location, profession, age, contact, package) 
-values ('Morton','Baghaya', 'Male', 'Kansungu','Professor', 39, 847523759, '5 Kg');
+values ('****','*******', 'Male', 'Kansungu','Professor', **, *****, '5 Kg');
 insert into custo_data (name, surname, sex, location, profession, age, contact, package) 
-values ('Charity', 'Banda', 'Female','Mzuzu', 'Security Guard', 27, 983642858, '6 Kg');
+values ('*****', '*****', 'Female','Mzuzu', 'Security Guard', **, ********, '6 Kg');
+
+--Sensitive information has been censored for privacy reasons
 
 
 ---Summary EDA
